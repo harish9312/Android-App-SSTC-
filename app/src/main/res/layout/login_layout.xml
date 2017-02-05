@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/sstclogo_b"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="45dp"
+            android:src="@drawable/asdsa"/>
+        <EditText
+            android:id="@+id/etStudentID"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:height="55dp"
+            android:padding="15dp"
+            android:hint="Enter Student ID"
+            android:textSize="25sp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="45dp"
+            android:src="@drawable/pass"/>
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:padding="15dp"
+            android:height="55dp"
+            android:hint="Enter Password"
+            android:textSize="25sp"
+            android:inputType="numberPassword"
+            android:layout_marginRight="12dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/tvStdLogin2"
+        android:layout_width="0dp"
+        android:layout_weight=".4"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/border_for_button"
+        />
+    <TextView
+        android:id="@+id/tvClear"
+        android:layout_width="0dp"
+        android:layout_weight=".4"
+        android:layout_height="55dp"
+        android:text="Clear"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border_for_button"
+        />
+</LinearLayout>
+
+
+
+    </LinearLayout>
+

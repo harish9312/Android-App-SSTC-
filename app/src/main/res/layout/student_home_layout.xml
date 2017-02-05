@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/std_home_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCT1Res"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/ct"
+            />
+        <ImageView
+            android:id="@+id/ivMT1Res"
+            android:layout_width="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/kk"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvCTRes"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Class Test\nResults"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvMTRes"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Monday Test\nResults"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivCT2Res"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/ct"
+            />
+        <ImageView
+            android:id="@+id/ivMT2Res"
+            android:layout_width="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/kk"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvCT2"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Class Test\n2 Results"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvMT2"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Monday Test\n2 Results"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/ivLogout"
+        android:layout_width="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="190dp"
+        android:src="@drawable/logout_icon"
+        />
+
+    </LinearLayout>
+

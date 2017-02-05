@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF0B8"
+    >
+
+    <TextView
+        android:id="@+id/tvTitl1e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:padding="15dp"
+        android:background="@drawable/border3"
+        android:text="NOTICE"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/tvNoticeBody"
+        android:padding="15dp"
+        android:background="@drawable/border3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:layout_marginLeft="5dp"
+        android:text="asddsadasd"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#000011"
+        />
+    <TextView
+        android:id="@+id/tvNoticeBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border3"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvNoticeDate"
+        android:layout_width="match_parent"
+        android:background="@drawable/border3"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivNotice"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="110dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/notice"
+            />
+        <ImageView
+            android:id="@+id/ivTNPNotice"
+            android:layout_width="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/tnp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvClgNotice"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="College\nNotice"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvTNPNotice"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="T &amp; P\n Notice"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvStdLogin1"
+            android:layout_width="110dp"
+            android:gravity="center"
+            android:layout_height="100dp"
+            android:background="@drawable/stdlogin"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvStdLogin"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Student\nLogin"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivResults"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/results"
+            />
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="100dp"
+            android:src="@drawable/news"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvResults"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:text="Results"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvNews"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="News"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvDevH"
+            android:layout_marginLeft="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed By \nHarish Kumar Soni"
+            android:gravity="center"
+            android:textColor="#B0B0B0"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="90dp"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
